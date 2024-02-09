@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import statsmodels.api as sm
 from sklearn.tree import DecisionTreeRegressor
+from sklearn.metrics import mean_squared_error
 
 # Učitavanje podataka i prethodni koraci preprocesiranja
 data = pd.read_csv('diamonds.csv')
